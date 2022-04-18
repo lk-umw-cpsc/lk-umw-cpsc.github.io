@@ -105,3 +105,7 @@ article {
     margin-bottom: 32px;
     font-family: OswaldLight;
 }
+
+.icon {
+    width: 64px;
+}
