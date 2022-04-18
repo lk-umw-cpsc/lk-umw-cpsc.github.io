@@ -2,3 +2,7 @@ body, header, main, h1, article {
     padding: 0px;
     margin: 0px;
 }
+
+a, a:visited {
+    text-decoration: none;
+}
