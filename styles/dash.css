@@ -31,6 +31,11 @@ main {
 }
 
 @font-face {
+    font-family: PoppinsM;
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
     font-family: OswaldLight;
     src: url(../fonts/Oswald-Light.ttf);
 }
@@ -41,7 +46,7 @@ main {
 }
 
 h1 {
-    font-family: RalewayEL;
+    font-family: PoppinsM;
     font-size: 48pt;
     color: white;
     text-align: center;
