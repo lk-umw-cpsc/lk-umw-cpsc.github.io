@@ -26,7 +26,7 @@ main {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    padding-bottom: 16px;
+    padding-bottom: 32px;
     gap: 16px;
 }
 
@@ -91,7 +91,7 @@ article {
     gap: 8px;
 }
 
-a:hover article {
+a:hover article, a:active article {
     border-color: white;
 }
 
