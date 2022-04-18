@@ -2,6 +2,10 @@ html, body {
     height: 100%;
 }
 
+body {
+    padding-top: 16px;
+}
+
 header, main {
     background-color: rgba(0, 48, 94, 0.92);
 }
@@ -36,6 +40,11 @@ main {
 }
 
 @font-face {
+    font-family: PoppinsR;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
     font-family: OswaldLight;
     src: url(../fonts/Oswald-Light.ttf);
 }
@@ -62,15 +71,15 @@ h1 {
 }
 
 article {
-    background-color: rgba(255, 255, 255, 0.05);
+    /* background-color: rgba(255, 255, 255, 0.05); */
     width: 192px;
     height: 192px;
-    font-family: RalewayEL;
-    font-size: 20pt;
-    text-transform: uppercase;
+    font-family: PoppinsR;
+    font-size: 24pt;
+    /* text-transform: uppercase; */
     color: white;
     border-radius: 24px;
-    /* border: 1px solid rgba(255, 255, 255, 0.25); */
+    border: 3px solid rgba(255, 255, 255, 0.25);
     text-align: center;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
     display: flex;
