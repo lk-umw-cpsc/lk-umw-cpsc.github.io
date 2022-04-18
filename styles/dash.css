@@ -95,12 +95,6 @@ a:hover article, a:active article {
     border-color: white;
 }
 
-/* #canvas-button {
-    background-image: url(../images/canvas.png);
-    background-size: cover;
-    border: 3px solid rgba(0, 0, 0, 0);
-} */
-
 #searchbox {
     background-color: white;
     color: black;
