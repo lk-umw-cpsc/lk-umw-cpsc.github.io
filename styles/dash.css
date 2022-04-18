@@ -26,6 +26,11 @@ main {
 }
 
 @font-face {
+    font-family: RalewayEL;
+    src: url(../fonts/Raleway-ExtraLight.ttf);
+}
+
+@font-face {
     font-family: OswaldLight;
     src: url(../fonts/Oswald-Light.ttf);
 }
@@ -36,7 +41,7 @@ main {
 }
 
 h1 {
-    font-family: OswaldLight;
+    font-family: RalewayEL;
     font-size: 48pt;
     color: white;
     text-align: center;
@@ -55,7 +60,7 @@ article {
     background-color: rgba(255, 255, 255, 0.05);
     width: 192px;
     height: 192px;
-    font-family: Montserrat;
+    font-family: RalewayEL;
     font-size: 20pt;
     text-transform: uppercase;
     color: white;
