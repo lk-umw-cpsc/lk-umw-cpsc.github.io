@@ -107,6 +107,7 @@ a:hover article, a:active article {
     margin-bottom: 32px;
     font-family: OswaldLight;
     box-shadow: 0px 0px 5px black;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.0));
 }
 
 /* #searchbox-icon {
