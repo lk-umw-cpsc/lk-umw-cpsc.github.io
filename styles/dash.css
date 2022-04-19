@@ -1,16 +1,13 @@
 body {
     padding-top: 24px;
     padding-bottom: 24px;
+    background-image: url(../images/background.jpeg);
+    background-size: cover;
 }
 
 header, main {
     /* background-color: rgba(0, 48, 94, 0.92); */
     background-image: linear-gradient(to right, rgba(0, 48, 94, 0.92), rgba(0, 85, 165, 0.92));
-}
-
-body {
-    background-image: url(../images/background.jpeg);
-    background-size: cover;
 }
 
 header {
