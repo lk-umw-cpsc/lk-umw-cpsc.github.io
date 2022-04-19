@@ -3,6 +3,7 @@ body {
     padding-bottom: 24px;
     background-image: url(../images/background.jpeg);
     background-size: cover;
+    background-position: center;
 }
 
 header, main {
