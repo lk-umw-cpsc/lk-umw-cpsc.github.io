@@ -4,4 +4,5 @@ body {
     width: 2550px;
     height: 1650px;
     background-image: url(../images/map-of-umw-campus.jpeg);
+    background-repeat: no-repeat;
 }
