@@ -1,6 +1,5 @@
 function search_update() {
     var text = document.getElementById('searchbox').value.trim();
-    console.log(text);
     if (text != null && text.length > 0) {
         search(text);
     } else {
