@@ -1,9 +1,13 @@
 function search_update() {
     var text = document.getElementById('searchbox').value;
-    if (text) {
+    console.log(text);
+    if (text != null && text.length > 0) {
         search(text);
     } else {
-
+        var container = document.getElementById('button-container');
+        for (const element of container.children) {
+            element.children[0].style.visibility = "visible";
+        }
     }
 }
 
