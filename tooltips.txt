@@ -2,6 +2,7 @@ Go to Canvas to view class schedule, assignments, discussions, and more!
 
 Visit the UMW Banner to update personal info,
 access academic records
+declare a major/minor
 register for classes
 view class schedule
 and more!
