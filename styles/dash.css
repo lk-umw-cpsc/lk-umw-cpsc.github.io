@@ -55,7 +55,7 @@ h1 {
     color: white;
     text-align: center;
     padding-top: 12pt;
-    text-shadow: 0px 0px 5px #000;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
     flex-basis: 100%;
 }
 
@@ -100,7 +100,8 @@ a:hover article, a:active article {
     color: black;
     width: 85%;
     font-size: 24pt;
-    border-radius: 8px 0px 0px 8px;
+    /* border-radius: 8px 0px 0px 8px; */
+    border-radius: 8px;
     border: none;
     text-align: center;
     margin-bottom: 32px;
