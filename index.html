@@ -3,6 +3,7 @@
   <title>Eagle Dash</title>
   <link rel="stylesheet" href="styles/reset.css">
   <link rel="stylesheet" href="styles/dash.css">
+  <script src="search.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -11,9 +12,9 @@
     <a href="https://www.umw.edu">
       <img id="umw-banner" src="images/UMW-logo.png" />
     </a>
-    <!-- <input id="searchbox" type="text" /> -->
+    <input id="searchbox" type="text" onkeypress="search_update()" />
   </header>
-  <main>
+  <main id="button-container">
     <a href="https://www.umw.edu/canvas">
       <article id="canvas-button"
           keywords="class assignment homework">
