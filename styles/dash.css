@@ -3,12 +3,13 @@ html, body {
 }
 
 body {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
     background-image: url(../images/background.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 header, main {
@@ -17,6 +18,7 @@ header, main {
 }
 
 header {
+    margin-top: 32px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -28,6 +30,7 @@ main {
     flex-flow: row wrap;
     padding-bottom: 32px;
     gap: 16px;
+    margin-bottom: 32px;
 }
 
 @font-face {
@@ -143,25 +146,29 @@ a:hover article, a:active article {
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 626px) {
     #umw-banner {
         width: 240px;
         font-size: 16pt;
     }
 
     article {
-        width: 128px;
-        height: 128px;
+        /* width: 164px;
+        height: 164px; */
+        width: 45vw;
+        height: 45vw;
         font-size: 16pt;
         gap: 4px;
     }
 
     .icon {
-        height: 64px;
+        /* height: 72px; */
+        width: 18vw;
+        height: 18vw;
     }
     
     #searchbox {
-        font-size: 16pt;
+        font-size: 20pt;
     }
 
     h1 {
@@ -169,15 +176,11 @@ a:hover article, a:active article {
     }
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 355px) {
     article {
         width: 112px;
         height: 112px;
         font-size: 14pt;
         gap: 4px;
-    }
-
-    .icon {
-        height: 48px;
     }
 }
