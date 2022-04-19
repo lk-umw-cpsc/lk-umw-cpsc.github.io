@@ -141,7 +141,7 @@ a:hover article, a:active article {
     }
 }
 
-@media only screen and (max-width: 283px) {
+@media only screen and (max-width: 300px) {
     article {
         width: 112px;
         height: 112px;
