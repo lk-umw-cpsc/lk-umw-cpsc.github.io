@@ -11,24 +11,21 @@ function search_update() {
 }
 
 function search(keywordString) {
-    var words = keywordString.split(/\s+/);
+    var words = keywordString.toLowerCase().split(/\s+/);
     var container = document.getElementById('button-container');
     for (const element of container.children) {
         var keywords = element.children[0].getAttribute('keywords').split(/\s+/);
         var found = false;
-        for (const keyword of keywords) {
-            for (var word of words) {
-                word = word.toLowerCase();
+        var count = 0;
+        for (var word of words) {
+            for (const keyword of keywords) {
                 if (keyword.includes(word)) {
-                    found = true;
+                    count++;
                     break;
                 }
             }
-            if (found) {
-                break;
-            }
         }
-        if (found) {
+        if (count == words.length) {
             element.style.display = "block";
         } else {
             element.style.display = "none";
