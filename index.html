@@ -8,13 +8,15 @@
 <head>
     <title>Eagle Dash</title>
     <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/dash.css">
+    <!--<link rel="stylesheet" href="styles/dash.css">-->
+    <link id="dashstyle" rel="stylesheet" href="styles/dash.css">
     <script src="search.js"></script>
+    <script src="accessibility.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <header>
-        <h1>EAGLE-</h1>
+        <h1 id="title">EAGLE-</h1>
         <a href="https://www.umw.edu">
             <img id="umw-banner" src="images/UMW-logo.png" />
         </a>
@@ -121,5 +123,11 @@
         <a href="https://eagleeye.umw.edu/" title="UMW News">
             <img class="socialmedia" src="images/news.png" />
         </a>
+        <!--<a>
+            <img class="accessibility" id="accessibility_button" src="images/accessibility.png" onclick="accessibility()"></img>
+        </a>-->
     </footer>
+    <a>
+        <img class="accessibility" id="accessibility_button" src="images/accessibility.png" onclick="accessibility()"></img>
+    </a>
 </body>
