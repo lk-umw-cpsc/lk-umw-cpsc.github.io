@@ -4,7 +4,8 @@ body {
 }
 
 header, main {
-    background-color: rgba(0, 48, 94, 0.92);
+    /* background-color: rgba(0, 48, 94, 0.92); */
+    background-image: linear-gradient(to right, rgba(0, 48, 94, 0.92), rgba(0, 85, 165, 0.92));
 }
 
 body {
@@ -77,6 +78,7 @@ article {
     color: white;
     border-radius: 24px;
     border: 3px solid rgba(255, 255, 255, 0.25);
+    /* border: 3px solid rgb(27, 120, 207); */
     text-align: center;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
     display: flex;
@@ -85,6 +87,7 @@ article {
     flex-flow: column nowrap;
     justify-content: center;
     gap: 8px;
+    background-image: linear-gradient(to top left, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.0));
 }
 
 a:hover article, a:active article {
@@ -94,17 +97,28 @@ a:hover article, a:active article {
 #searchbox {
     background-color: white;
     color: black;
-    width: 90%;
+    width: 85%;
     font-size: 24pt;
-    border-radius: 8px;
+    border-radius: 8px 0px 0px 8px;
     border: none;
     text-align: center;
     margin-bottom: 32px;
     font-family: OswaldLight;
 }
 
+/* #searchbox-icon {
+    height: 48px;
+    width: 48px;
+    background-color: white;
+    background-image: url(../images/search.png);
+    background-size: contain;
+    border-radius: 0px 8px 8px 0px;
+} */
+
 .icon {
     height: 64px;
+    filter: drop-shadow(0px 0px 5px #000);
+    -webkit-filter: drop-shadow(0px 0px 5px #000);
 }
 
 @media only screen and (min-width: 1480px) {
