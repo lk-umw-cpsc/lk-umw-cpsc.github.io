@@ -12,9 +12,10 @@
     <link id="dashstyle" rel="stylesheet" href="styles/dash.css">
     <script src="search.js"></script>
     <script src="accessibility.js"></script>
+    <script src="cookie.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
+<body onload="check_cookie()">
     <header>
         <h1 id="title">EAGLE-</h1>
         <a href="https://www.umw.edu">
@@ -125,6 +126,6 @@
         </a>
     </footer>
     <a>
-        <img class="accessibility" id="accessibility_button" src="images/accessibility.png" title="Accessibility" onclick="accessibility()"></img>
+        <img class="accessibility" id="accessibility_button" src="images/accessibility.png" title="Accessibility" onclick="accessibility(); store_cookie()"></img>
     </a>
 </body>

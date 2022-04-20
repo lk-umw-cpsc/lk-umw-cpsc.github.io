@@ -1,13 +1,13 @@
 
-var is_access_on = false;
+var is_access_on = "f";
 
 function accessibility() {
-	if (is_access_on) {
+	if (is_access_on == "t") {
 		swap_style_sheet("styles/dash.css");
-		is_access_on = false;
-	} else {
+		is_access_on = "f";
+	} else if (is_access_on == "f"){
 		swap_style_sheet("styles/dash_accessibility.css");
-		is_access_on = true;
+		is_access_on = "t";
 	}
 }
 
